@@ -1,0 +1,23 @@
+
+.home {
+    justify-content: center;
+    padding: 50px;
+}
+
+.add-btn {
+    margin-bottom: 30px;
+}
+
+.table > thead > tr > th {
+    font-size: 1.8em;
+}
+
+.table > tbody > tr > td {
+    font-size: 1.2em
+}
+
+.add-text {
+    font-size: 1.2em;
+}
+
+

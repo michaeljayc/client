@@ -1,0 +1,14 @@
+.add {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.formErrors-text {
+    font-size: 0.9em;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://localhost:3000/add -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- CSS only -->
+  <link href="./Daily App_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Daily App</title>
+
+  <script defer="" src="./Daily App_files/bundle.js"></script><style>@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);</style><style>* {
+  box-sizing: border-box;
+  margin: 0;;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* .home, .reports {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+} */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0Usc0JBQXNCO0VBQ3RCLFNBQVM7RUFDVCxVQUFVO0VBQ1YsK0JBQStCO0FBQ2pDOztBQUVBOzs7O0dBSUciLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybCgnaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1MYXRvJmRpc3BsYXk9c3dhcCcpO1xuXG4qIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgbWFyZ2luOiAwOztcbiAgcGFkZGluZzogMDtcbiAgZm9udC1mYW1pbHk6ICdMYXRvJywgc2Fucy1zZXJpZjtcbn1cblxuLyogLmhvbWUsIC5yZXBvcnRzIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogM2VtO1xufSAqLyJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.nav > * {
+    margin-left: 20px;
+}
+
+.nav-list > li > a {
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL05hdmJhci9OYXZiYXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdiA+ICoge1xuICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG4ubmF2LWxpc3QgPiBsaSA+IGEge1xuICAgIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG4ubG9nbyB7XG4gICAgZm9udC1zaXplOiB4LWxhcmdlO1xufVxuXG5cblxuXG5cblxuXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>footer {
+    background-color: rgb(33,37,41);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    color: whitesmoke
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL0Zvb3Rlci9Gb290ZXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksK0JBQStCO0lBQy9CLFdBQVc7SUFDWCxlQUFlO0lBQ2YsYUFBYTtJQUNiLFNBQVM7SUFDVCxPQUFPO0lBQ1AsdUJBQXVCO0lBQ3ZCO0FBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyJmb290ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigzMywzNyw0MSk7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYm90dG9tOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgY29sb3I6IHdoaXRlc21va2Vcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.add-btn {
+    margin-bottom: 30px;
+}
+
+.table-list {
+    display: flex;
+}
+
+.table > thead > tr > th {
+    font-size: 2em;
+}
+
+.table > tbody > tr > td {
+    font-size: 1.2em
+}
+
+.add-text {
+    font-size: 1.2em;
+}
+
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL0hvbWUvaG9tZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0lBQ0ksYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSTtBQUNKOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCIiwic291cmNlc0NvbnRlbnQiOlsiXG4uaG9tZSB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBwYWRkaW5nOiAzMHB4O1xufVxuXG4uYWRkLWJ0biB7XG4gICAgbWFyZ2luLWJvdHRvbTogMzBweDtcbn1cblxuLnRhYmxlLWxpc3Qge1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG5cbi50YWJsZSA+IHRoZWFkID4gdHIgPiB0aCB7XG4gICAgZm9udC1zaXplOiAyZW07XG59XG5cbi50YWJsZSA+IHRib2R5ID4gdHIgPiB0ZCB7XG4gICAgZm9udC1zaXplOiAxLjJlbVxufVxuXG4uYWRkLXRleHQge1xuICAgIGZvbnQtc2l6ZTogMS4yZW07XG59XG5cblxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.add {
+    display: flex;
+    padding: 30px;
+
+}
+
+.title {
+    margin-bottom: 50px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL0FkZC9hZGQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLGFBQWE7O0FBRWpCOztBQUVBO0lBQ0ksbUJBQW1CO0FBQ3ZCIiwic291cmNlc0NvbnRlbnQiOlsiLmFkZCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBwYWRkaW5nOiAzMHB4O1xuXG59XG5cbi50aXRsZSB7XG4gICAgbWFyZ2luLWJvdHRvbTogNTBweDtcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><div><nav class="navbar navbar-expand-lg navbar-dark bg-dark nav"><a class="navbar-brand logo" href="http://localhost:3000/">DailyApp</a><div class="collapse navbar-collapse"><ul class="navbar-nav mr-auto nav-list"><li class="nav-item active"><a class="nav-link" href="http://localhost:3000/">Home</a></li><li class="nav-item"><a class="nav-link" href="http://localhost:3000/reports">Reports</a></li></ul></div></nav></div><div class="row  add"><h3 class="title">Create new data </h3><form><div class="form-group col-md-4 mb-4"><label>Transportation</label><select class="form-select form-control mb-2" name="transpo" required=""><option default="" hidden="">Choose One . . .</option><option value="Walked">Walked</option><option value="Bike">Bike</option><option value="Motorcycle">Motorcycle</option><option value="Car">Car</option></select><div class="col-auto mb-4 alert alert-danger"></div></div><div class="form-group col-md-4 mb-4"><label>Reason </label><textarea class="form-control" name="reason" required=""></textarea></div><div class="col-md-2 mb-4 alert alert-danger"></div><div class="form-group col-md-4 mb-4"><label>Expenses </label><input type="number" class="form-control" placeholder="Enter expenses" name="expense" value="0"></div><div class="form-group col-md-4 mb-4"><label>Start Time </label><br><input type="datetime-local" name="startDateTime" class="form-control" value=""></div><div class="col-md-2 mb-4 alert alert-danger"></div><div class="form-group col-md-4 mb-2"><label>End Time </label><br><input type="datetime-local" name="endDateTime" class="form-control" value=""></div><div class="col-md-2 mb-4 alert alert-danger"></div><button class="btn btn-primary col-md-2" type="submit">Save</button></form></div><footer><p>© All Rights Reserved 2022</p></footer></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- JavaScript Bundle with Popper -->
+  <script src="./Daily App_files/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+
+</body></html>

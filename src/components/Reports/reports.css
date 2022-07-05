@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    overflow:hidden;
+}
+
+.reports {
+    justify-content: center;
+    padding: 30px;
+}
+
+.range {
+    margin-top: 30px;
+    margin-bottom: auto;
+    padding: 10px;;
+}
+
+.range-opt {
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
